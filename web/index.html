@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Protectora LAIKA</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h1>Protectora LAIKA - Por la diversidad</h1>
+        <div id="infoProtectora">
+            <h3>Protectora 1 (Málaga)</h3>
+            <p>Nombre: Iris&Natalia Fundación</p>
+            <p>Calle: C/Perrito Chulo, nº27</p>
+            <p>Ubicación: Málaga (Málaga)</p>
+            <p>Nº Máximo de Animales permitidos: 100</p>
+            <p>Horario: L-V de 10:30 a 16:00</p>
+            <!--  Aquí en realidad, debería de haber otro FORMULARIO, que cambie según la 
+            tienda que elijamos -->
+            <select>
+                <option value="1">Protetora 1 (Málaga)</option>
+            </select>
+        </div>
+        <form method="POST" action="./Controlador">
+        <div id="opciones">
+                <input type="submit" name="btnBorrar" value="Borrar"/>
+                <input type="submit" name="btnEditar" value="Editar"/>
+                <input type="submit" name="btnInsertar" value="Insertar"/>
+        </div>       
+        <div id="listado">AQUI PONEMOS LA TABLA DE LOS ANIMALILLOS</div>
+        </form>
     </body>
 </html>
