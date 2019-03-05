@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 05-mar-2019, 19:55:12
+    Author     : Iris Ledesma
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
